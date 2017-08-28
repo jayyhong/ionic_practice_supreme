@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar color="supremeRed">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Login</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content style="background: url('https://i.pinimg.com/736x/61/0a/c2/610ac2f68e5b071b23003dd21c00af2c--supreme-background-wallpaper-supreme-iphone.jpg'); background-size: contain">
+  <ion-content padding style="margin-top: 95%; background: transparent">
+    <ion-item no-lines style="background-color: transparent">
+      <ion-label class="label">Username:</ion-label>
+      <ion-input placeholder="Username" class="input" color="white"></ion-input>
+    </ion-item>
+    <ion-item no-lines style="background-color: transparent">
+      <ion-input placeholder="Password" class="input"></ion-input>
+      <ion-label class="label">Password:</ion-label>
+    </ion-item>
+    <button ion-button color="supremeRed" class="loginButtons">Login</button>
+    <button ion-button color="supremeRed" class="loginButtons" (click)="redirectToSignupPage()">Sign Up</button>
+  </ion-content>
+</ion-content>  
